@@ -38,7 +38,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         // find out which number divide i
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
@@ -55,5 +55,6 @@ class FizzBuzz {
         }
         i++;
         return i;
+        // is i updated at the end of this method since the code body is no longer inside a while loop.
     }
 }
