@@ -148,10 +148,6 @@ In Python, any code that you write in a file will get run when you execute the f
 This is not the case in Java. You must define a method called `main` in a class
 and tell Java to run the file containing that class.
 
-```java
-public static void main(String[] args)
-```
-
 This is the main method, the entry point of your program. You have installed Java,
 and it is, loosely speaking, a program that knows how to compile and run your program — it calls
 method `main` in the file you choose to run.
